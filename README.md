@@ -15,7 +15,7 @@ Device
 * STM32F401RE chip
 * STM32 Nucleo-64 development board
 
-## Topic
+## Description
 
 This program combines two main areas of focus:
 
