@@ -37,5 +37,5 @@ Screenshot of Host
 
 Video of Test
 
-https://github.com/TallDave67/8_uart_rx/blob/main/Output/realterm-to-stm32f4.mp4
+![LED changes on STM32F4](Output/realterm-to-stm32f4.mp4)
 
