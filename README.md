@@ -37,5 +37,5 @@ Screenshot of Host
 
 Video of Test
 
-![](Output/realterm-to-stm32f4)
+![](Output/realterm-to-stm32f4.mp4)
 
