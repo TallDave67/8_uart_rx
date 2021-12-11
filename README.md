@@ -31,7 +31,11 @@ Program 8 running on the device does the following:
 
 ## Output
 
+Screenshot of Host
+
 ![RealTerm writes to STM32F4](Output/realterm-to-stm32f4.png)
 
-![LED changes on STM32F4](Output/realterm-to-stm32f4.mp4)
+Video of Test
+
+![](Output/realterm-to-stm32f4)
 
