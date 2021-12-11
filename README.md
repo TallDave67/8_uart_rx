@@ -22,12 +22,12 @@ This program combines two main areas of focus:
 * Toggling the LED
 * UART2 communication
 
-RealTerm tool running on host sends characters to the board.
-
 The program running on the device does the following:
 
 * Reads one character at a time from the UART2 RX pin
 * If the character is '1' the LED is turned on, otherwise it is turned off
+
+RealTerm tool running on host sends characters to the board.
 
 ## Output
 
