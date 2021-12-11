@@ -31,11 +31,11 @@ RealTerm tool running on host sends characters to the board.
 
 ## Output
 
-Screenshot of Host
+### Screenshot of Host
 
 ![RealTerm writes to STM32F4](Output/realterm-to-stm32f4.png)
 
-Video of Test
+### Video of Test
 
 ![LED changes on STM32F4 based on input character](Output/realterm-to-stm32f4.mp4)
 
