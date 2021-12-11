@@ -29,4 +29,7 @@ Program 8 running on the device does the following:
 * Reads one character at a time from the UART2 RX pin
 * If the character is '1' the LED is turned on, otherwise it is turned off
 
+## Output
+
+![RealTerm writes to STM32F4](Output/realterm-to-stm32f4.png)
 
