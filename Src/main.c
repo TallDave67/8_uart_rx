@@ -1,35 +1,35 @@
 #include "uart.h"
 #include <stdio.h>
 
-#define GPIOAEN			(1U<<0)
-#define GPIOA_5			(1U<<5)
+#define GPIOAEN            (1U<<0)
+#define GPIOA_5            (1U<<5)
 
-#define LED_PIN			GPIOA_5
+#define LED_PIN            GPIOA_5
 
 char key;
 
 int main(void)
 {
-	/* Enable clock access to GPIOA */
-	RCC->AHB1ENR |= GPIOAEN;
+    /* Enable clock access to GPIOA */
+    RCC->AHB1ENR |= GPIOAEN;
 
-	/* Set PA5 as output pin*/
-	GPIOA->MODER |= (1U<<10);
-	GPIOA->MODER &= (~(1U<<11));
+    /* Set PA5 as output pin*/
+    GPIOA->MODER |= (1U<<10);
+    GPIOA->MODER &= (~(1U<<11));
 
-	uart2_rxtx_init();
+    uart2_rxtx_init();
 
-	while(1)
-	{
-		key = uart2_read();
-		if(key == '1')
-		{
-			GPIOA->ODR |= LED_PIN;
-		}
-		else
-		{
-			GPIOA->ODR &= ~LED_PIN;
-		}
-	}
+    while(1)
+    {
+        key = uart2_read();
+        if(key == '1')
+        {
+            GPIOA->ODR |= LED_PIN;
+        }
+        else
+        {
+            GPIOA->ODR &= ~LED_PIN;
+        }
+    }
 }
 
